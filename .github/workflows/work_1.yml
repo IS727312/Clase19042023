@@ -7,6 +7,6 @@ jobs:
     - name: Nombre completo
       run: echo "Miguel Mario Mendez Alcaraz"
     - name: Version de node
-      run: echo node -v
+      run: node -v
     - name: Expediente
       run: echo "727312"
