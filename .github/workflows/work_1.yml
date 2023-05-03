@@ -1,8 +1,12 @@
-name: Work 1 Miguel
+name: Examen 3 Miguel
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Print Something
-      run: echo "Hola Pitaya111"
+    - name: Nombre completo
+      run: echo "Miguel Mario Mendez Alcaraz"
+    - name: Version de node
+      run: echo node -v
+    - name: Expediente
+      run: echo "727312"
